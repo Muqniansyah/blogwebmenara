@@ -1,0 +1,64 @@
+yang udah :
+1. setup awal dengan html, css dan sass
+
+2. cari keywoard untuk judul, meta description, h1 dan h2
+- judul : Pembuatan Pallet Kayu Ekspor: Proses dan Standar ISPM 15
+- h1 : Pembuatan Pallet Kayu Ekspor Sesuai Standar ISPM 15
+- h2 :
+#1: Apa Itu Pallet Kayu dan Fungsinya dalam Ekspor
+#2: Proses Pembuatan Pallet Kayu Ekspor
+#3: Keunggulan Pallet Kayu Bersertifikat ISPM 15
+- meta description : 
+"Pelajari proses pembuatan pallet kayu ekspor yang memenuhi standar ISPM 15 — mulai dari fungsi pallet dalam ekspor, tahapan produksi, hingga keunggulan pallet bersertifikat dari PT Menara Bekasi."
+- deskripsi singkat :
+Pallet kayu menjadi komponen penting dalam industri logistik dan ekspor. Artikel ini membahas pengertian dan fungsi pallet kayu dalam perdagangan internasional, proses pembuatannya yang sesuai dengan standar ISPM 15, serta keunggulan menggunakan pallet bersertifikat untuk mendukung kelancaran ekspor. Di akhir pembahasan, kamu juga akan mengenal solusi terpercaya dari PT Menara Bekasi sebagai penyedia pallet kayu berkualitas ekspor.
+- tagline :
+#PEMBUATANKAYUEKSPOR
+
+
+
+
+
+
+
+
+
+
+3. buat web dan kompress gambar + alt gambar
+
+4. web responsif
+
+5. menambah rel="noopener noreferrer" untuk keamanan link
+
+6. cta
+https://wa.me/6285817298071
+https://menarabekasilestari.site/
+
+7. hosting web
+https://blogmenara.pages.dev/
+
+https://gitlab.com/menarablog/blogmenara
+untuk hosting ke gitlab pages harus melewati ci cd pipeline yang otomatis harus verifikasi terlebih dahulu.
+verifikasi dilakukan dengan nomer telepon dan kartu debit.
+
+8. google analytics
+
+9. google search console
+
+10. memasukkan keywoard json
+
+11. buat file sitemap.xml dan robots.txt
+
+12. uji url sudah aktif
+https://blogmenara.pages.dev/
+
+13. uji url sitemap sudah aktif
+https://blogmenara.pages.dev/sitemap.xml
+
+14. membuat swiper atau carousel slide untuk backlink seo
+
+15. sharing button bar
+
+16. menambah headers keamanan
+
+17. lakukan minify file (default dari cloudflare)
