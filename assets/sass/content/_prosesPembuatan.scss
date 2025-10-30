@@ -1,0 +1,79 @@
+@use "../variabel";
+
+.section-proses {
+  position: relative;
+  background: linear-gradient(135deg, #fff 0%, #fff3f3 100%);
+  padding: 5rem 10%;
+
+  .proses__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .proses__image {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-width: 420px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      transition: transform 0.4s ease;
+      &:hover {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  .proses__text {
+    flex: 1 1 50%;
+    color: variabel.$text-dark;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: variabel.$primary-color;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .proses__bridging {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    color: variabel.$text-dark;
+    position: relative;
+    z-index: 1;
+  }
+
+  // 📱 Responsif
+  @media (max-width: 768px) {
+    padding: 3rem 5%;
+
+    .proses__container {
+      flex-direction: column;
+      text-align: center;
+    }
+
+    .proses__text h2 {
+      font-size: 1.8rem;
+    }
+
+    .proses__image img {
+      max-width: 80%;
+    }
+  }
+}

@@ -1,0 +1,90 @@
+@use "../variabel";
+
+.section-pengertian {
+  position: relative;
+  background: #fff5f4;
+  padding: 5rem 10%;
+  // overflow: hidden;
+
+  // hiasan lingkaran
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+    z-index: 0;
+  }
+
+  &::before {
+    width: 300px;
+    height: 300px;
+    background: rgba(233, 79, 55, 0.1);
+    top: 100px;
+    left: -100px;
+  }
+
+  &::after {
+    width: 200px;
+    height: 200px;
+    background: rgba(233, 79, 55, 0.15);
+    bottom: -50px;
+    right: 50px;
+    z-index: 2;
+  }
+
+  .pengertian__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 2rem;
+    position: relative;
+    z-index: 1;
+  }
+
+  .pengertian__text {
+    flex: 1 1 45%;
+    color: variabel.$text-dark;
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: variabel.$primary-color;
+    }
+
+    p {
+      font-size: 1.05rem;
+      line-height: 1.8;
+      margin-bottom: 1rem;
+    }
+  }
+
+  .pengertian__image {
+    flex: 1 1 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    img {
+      width: 100%;
+      max-width: 400px;
+      border-radius: 20px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    }
+  }
+
+  // responsive
+  @media (max-width: 768px) {
+    padding: 3rem 5%;
+    .pengertian__container {
+      flex-direction: column-reverse;
+      text-align: center;
+    }
+
+    .pengertian__text {
+      h2 {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}

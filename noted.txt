@@ -1,5 +1,6 @@
 yang udah :
 1. setup awal dengan html, css dan sass
+-manage : npm run sass
 
 2. cari keywoard untuk judul, meta description, h1 dan h2
 - judul : Pembuatan Pallet Kayu Ekspor: Proses dan Standar ISPM 15
@@ -14,15 +15,6 @@ yang udah :
 Pallet kayu menjadi komponen penting dalam industri logistik dan ekspor. Artikel ini membahas pengertian dan fungsi pallet kayu dalam perdagangan internasional, proses pembuatannya yang sesuai dengan standar ISPM 15, serta keunggulan menggunakan pallet bersertifikat untuk mendukung kelancaran ekspor. Di akhir pembahasan, kamu juga akan mengenal solusi terpercaya dari PT Menara Bekasi sebagai penyedia pallet kayu berkualitas ekspor.
 - tagline :
 #PEMBUATANKAYUEKSPOR
-
-
-
-
-
-
-
-
-
 
 3. buat web dan kompress gambar + alt gambar
 

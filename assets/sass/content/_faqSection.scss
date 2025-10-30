@@ -1,0 +1,142 @@
+@use "../variabel";
+
+.section-faq {
+  position: relative;
+  background: linear-gradient(135deg, #f7f4ff 0%, #eef2ff 100%);
+  padding: 5rem 10%;
+  overflow: hidden;
+  z-index: 1;
+
+  // 🎀 Hiasan unik: Layered ribbon (pita miring tumpang tindih)
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 120%;
+    height: 160px;
+    transform: rotate(-4deg);
+    z-index: 0;
+  }
+
+  // &::before {
+  //   top: -70px;
+  //   background: linear-gradient(
+  //     135deg,
+  //     rgba(155, 89, 182, 0.3) 0%,
+  //     rgba(155, 89, 182, 0.15) 100%
+  //   );
+  // }
+
+  &::after {
+    bottom: -90px;
+    background: linear-gradient(
+      135deg,
+      rgba(155, 89, 182, 0.15) 0%,
+      rgba(155, 89, 182, 0.3) 100%
+    );
+    transform: rotate(4deg);
+  }
+
+  .faq__container {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .faq__title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #2c3e50;
+    margin-bottom: 1rem;
+  }
+
+  .faq__subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 3rem;
+  }
+
+  .faq__items {
+    text-align: left;
+  }
+
+  .faq__item {
+    background: #fff;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    border-left: 6px solid variabel.$primary-color;
+
+    &:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12);
+    }
+  }
+
+  .faq__question {
+    width: 100%;
+    background: transparent;
+    border: none;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2c3e50;
+    padding: 1.2rem 1.5rem;
+    cursor: pointer;
+    position: relative;
+    transition: color 0.3s ease;
+
+    &::after {
+      content: "+";
+      position: absolute;
+      right: 1.5rem;
+      top: 1rem;
+      font-size: 1.5rem;
+      color: variabel.$primary-color;
+      transition: transform 0.3s ease;
+    }
+
+    &.active {
+      color: variabel.$primary-color;
+    }
+
+    &.active::after {
+      transform: rotate(45deg);
+    }
+  }
+
+  .faq__answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease;
+    padding: 0 1.5rem;
+
+    p {
+      color: #444;
+      font-size: 1rem;
+      line-height: 1.7;
+      padding-bottom: 1rem;
+    }
+  }
+
+  .faq__item.active .faq__answer {
+    max-height: 300px;
+  }
+
+  @media (max-width: 768px) {
+    padding: 3rem 5%;
+
+    .faq__title {
+      font-size: 1.8rem;
+    }
+
+    .faq__question {
+      font-size: 1rem;
+    }
+  }
+}
