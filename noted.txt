@@ -27,15 +27,17 @@ https://wa.me/6285817298071
 https://menarabekasilestari.site/
 
 7. hosting web
-https://blogmenara.pages.dev/
+https://blogwebmenara.vercel.app/
 
-https://gitlab.com/menarablog/blogmenara
-untuk hosting ke gitlab pages harus melewati ci cd pipeline yang otomatis harus verifikasi terlebih dahulu.
-verifikasi dilakukan dengan nomer telepon dan kartu debit.
+https://github.com/muqniansyah/blogwebmenara
 
 8. google analytics
 
 9. google search console
+
+10. membuat swiper atau carousel slide untuk backlink seo
+
+11. sharing button bar
 
 10. memasukkan keywoard json
 
@@ -46,10 +48,6 @@ https://blogmenara.pages.dev/
 
 13. uji url sitemap sudah aktif
 https://blogmenara.pages.dev/sitemap.xml
-
-14. membuat swiper atau carousel slide untuk backlink seo
-
-15. sharing button bar
 
 16. menambah headers keamanan
 
