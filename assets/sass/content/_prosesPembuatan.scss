@@ -20,13 +20,30 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative; // penting agar pseudo bisa diposisikan relatif ke elemen ini
+
+    &::before {
+      content: "";
+      position: absolute;
+      top: 20px;
+      left: -10px;
+      width: 100%;
+      height: 100%;
+      background: rgba(233, 79, 55, 0.15); // warna lembut dari #e94f37
+      border-radius: 20px;
+      z-index: 0;
+      box-shadow: 0 10px 25px rgba(233, 79, 55, 0.2);
+      transform: rotate(-3deg);
+    }
 
     img {
+      position: relative;
       width: 100%;
       max-width: 420px;
       border-radius: 20px;
       box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
       transition: transform 0.4s ease;
+      z-index: 1;
       &:hover {
         transform: scale(1.05);
       }

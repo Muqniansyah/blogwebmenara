@@ -44,11 +44,11 @@ https://github.com/muqniansyah/blogwebmenara
 11. buat file sitemap.xml dan robots.txt
 
 12. uji url sudah aktif
-https://blogmenara.pages.dev/
+https://blogwebmenara.vercel.app/
 
 13. uji url sitemap sudah aktif
-https://blogmenara.pages.dev/sitemap.xml
+https://blogwebmenara.vercel.app/sitemap.xml
 
-16. menambah headers keamanan
+14. menambah headers keamanan
 
-17. lakukan minify file (default dari cloudflare)
+15. lakukan minify file (belum)

@@ -140,6 +140,22 @@
     }
   }
 
+  /* 🔺 Dekorasi segitiga */
+  &::before {
+    content: "";
+    position: absolute;
+    z-index: 0;
+    pointer-events: none;
+    transition: transform 1s ease-in-out;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-top: 180px solid transparent;
+    border-left: 180px solid rgba(233, 79, 55, 0.15);
+    transform: translate(-30px, 30px) rotate(100deg);
+  }
+
   @media (max-width: 768px) {
     flex-direction: column-reverse;
     text-align: center;

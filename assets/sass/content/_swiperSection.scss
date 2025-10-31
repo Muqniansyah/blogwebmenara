@@ -1,4 +1,4 @@
-.section-partner {
+.section-artikel {
   position: relative;
   padding: 5rem 10%;
   background: linear-gradient(135deg, #3b82f6 0%, #8b5cf6 100%);
@@ -29,26 +29,26 @@
     background: rgba(255, 255, 255, 0.05);
   }
 
-  .partner__container {
+  .artikel__container {
     position: relative;
     z-index: 2;
     text-align: center;
   }
 
-  .partner__title {
+  .artikel__title {
     font-size: 2.3rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
   }
 
-  .partner__subtitle {
+  .artikel__subtitle {
     font-size: 1.1rem;
     color: rgba(255, 255, 255, 0.9);
     margin-bottom: 3rem;
   }
 
   /* Swiper Card */
-  .partner__card {
+  .artikel__card {
     background: #ffffff;
     border-radius: 15px;
     overflow: hidden;
@@ -74,7 +74,7 @@
       filter: brightness(1);
     }
 
-    .partner__info {
+    .artikel__info {
       padding: 1rem 1.2rem 1.5rem;
 
       h3 {
@@ -115,11 +115,11 @@
   @media (max-width: 768px) {
     padding: 3rem 5%;
 
-    .partner__title {
+    .artikel__title {
       font-size: 1.8rem;
     }
 
-    .partner__card img {
+    .artikel__card img {
       height: 120px;
     }
   }

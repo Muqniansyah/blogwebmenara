@@ -178,6 +178,14 @@
   }
 
   // 📱 Responsif
+  @media (max-width: 1366px) {
+    .keunggulan__promosi {
+      .keunggulan__btn {
+        margin-left: 38%;
+      }
+    }
+  }
+
   @media (max-width: 768px) {
     padding: 3rem 5%;
     .keunggulan__cards {
@@ -189,7 +197,23 @@
       .keunggulan__btn {
         //   width: 100%;
         //   max-width: 300px;
-        margin-left: 22%;
+        margin-left: 28%;
+      }
+    }
+  }
+
+  @media (max-width: 450px) {
+    .keunggulan__promosi {
+      .keunggulan__btn {
+        margin-left: 18%;
+      }
+    }
+  }
+
+  @media (max-width: 350px) {
+    .keunggulan__promosi {
+      .keunggulan__btn {
+        margin-left: 10%;
       }
     }
   }

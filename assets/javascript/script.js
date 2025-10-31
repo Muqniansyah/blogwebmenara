@@ -10,7 +10,7 @@ faqs.forEach((item) => {
 });
 
 // swiper
-const swiper = new Swiper(".partnerSwiper", {
+const swiper = new Swiper(".artikelSwiper", {
   slidesPerView: 4,
   spaceBetween: 40,
   loop: true,
